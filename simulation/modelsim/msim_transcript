@@ -1,0 +1,86 @@
+# Reading E:/Softwares/Quartus_17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Digital_Clock_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying E:/Softwares/Quartus_17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code {E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:51:23 on May 17,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code" E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 09:51:23 on May 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code {E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:51:23 on May 17,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code" E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v 
+# -- Compiling module display_ctrl
+# 
+# Top level modules:
+# 	display_ctrl
+# End time: 09:51:23 on May 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code {E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:51:23 on May 17,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code" E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v 
+# -- Compiling module time_control
+# 
+# Top level modules:
+# 	time_control
+# End time: 09:51:23 on May 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench {E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:51:23 on May 17,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench" E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v 
+# -- Compiling module tb_TOP
+# 
+# Top level modules:
+# 	tb_TOP
+# End time: 09:51:23 on May 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxii_ver -L rtl_work -L work -voptargs="+acc"  tb_TOP
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxii_ver -L rtl_work -L work -voptargs=""+acc"" tb_TOP 
+# Start time: 09:51:24 on May 17,2018
+# Loading work.tb_TOP
+# Loading work.TOP
+# Loading work.time_control
+# Loading work.display_ctrl
+# ** Warning: (vsim-3015) E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v(43): [PCDPC] - Port size (4) does not match connection size (3) for port 'set_sec_shi'. The port definition is at: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_TOP/TOP_inst File: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+# ** Warning: (vsim-3015) E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v(43): [PCDPC] - Port size (4) does not match connection size (3) for port 'set_min_shi'. The port definition is at: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_TOP/TOP_inst File: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+# ** Warning: (vsim-3015) E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'set_hour_shi'. The port definition is at: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_TOP/TOP_inst File: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+# ** Warning: (vsim-3015) E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v(43): [PCDPC] - Port size (4) does not match connection size (3) for port 'clock_min_shi'. The port definition is at: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_TOP/TOP_inst File: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+# ** Warning: (vsim-3015) E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'clock_hour_shi'. The port definition is at: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_TOP/TOP_inst File: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+# ** Warning: (vsim-3015) E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v(43): [PCDPC] - Port size (4) does not match connection size (3) for port 'sec_shi_r'. The port definition is at: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_TOP/TOP_inst File: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+# ** Warning: (vsim-3015) E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v(43): [PCDPC] - Port size (4) does not match connection size (3) for port 'min_shi_r'. The port definition is at: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_TOP/TOP_inst File: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+# ** Warning: (vsim-3015) E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hour_shi_r'. The port definition is at: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_TOP/TOP_inst File: E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 09:51:40 on May 17,2018, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 8

@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/simulation/modelsim
+vdisplay_ctrl
+Z1 !s110 1526521883
+!i10b 1
+!s100 @WE[X7bO7WOWJ0C4LS73i0
+I[5haK08<8H^NEO34me9I<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1526521865
+8E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v
+FE:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1526521883.000000
+!s107 E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code|E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code
+Z7 tCvgOpt 0
+vtb_TOP
+R1
+!i10b 1
+!s100 QMM78eHzTlg0EboQY90Gf0
+IC7O2Z3B;fB;Fg52CamdY60
+R2
+R0
+w1526520175
+8E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v
+FE:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench|E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench
+R7
+ntb_@t@o@p
+vtime_control
+R1
+!i10b 1
+!s100 [>RRQfBIl0@e`Jl7oUj`g2
+IZD3eBgYSTnlaUTGMa8T@X1
+R2
+R0
+w1526519258
+8E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v
+FE:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code|E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v|
+!i113 1
+R5
+R6
+R7
+vTOP
+R1
+!i10b 1
+!s100 T^^d4kgF_?>;G?102kjAS2
+IGGoOnE=TP:RmDSVSg7^Wf3
+R2
+R0
+w1526520657
+8E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+FE:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code|E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v|
+!i113 1
+R5
+R6
+R7
+n@t@o@p

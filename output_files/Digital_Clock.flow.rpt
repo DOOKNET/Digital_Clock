@@ -1,0 +1,114 @@
+Flow report for Digital_Clock
+Tue May 22 16:34:25 2018
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Flow Summary                                                            ;
++-----------------------+-------------------------------------------------+
+; Flow Status           ; Successful - Tue May 22 16:34:25 2018           ;
+; Quartus Prime Version ; 17.1.0 Build 590 10/25/2017 SJ Standard Edition ;
+; Revision Name         ; Digital_Clock                                   ;
+; Top-level Entity Name ; TOP                                             ;
+; Family                ; MAX II                                          ;
+; Device                ; EPM2210F324C5                                   ;
+; Timing Models         ; Final                                           ;
++-----------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/22/2018 16:34:05 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Digital_Clock       ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                       ;
++---------------------------------------+---------------------------------+---------------+-------------+----------------+
+; Assignment Name                       ; Value                           ; Default Value ; Entity Name ; Section Id     ;
++---------------------------------------+---------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                 ; 264390066597439.152697804513956 ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME              ; NA                              ; --            ; --          ; tb_TOP         ;
+; EDA_NATIVELINK_PORTABLE_FILE_PATHS    ; On                              ; --            ; --          ; eda_simulation ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH  ; tb_TOP                          ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT                ; Verilog Hdl                     ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                   ; ModelSim-Altera (Verilog)       ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS          ; TEST_BENCH_MODE                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                   ; TestBench/tb_TOP.v              ; --            ; --          ; tb_TOP         ;
+; EDA_TEST_BENCH_MODULE_NAME            ; tb_TOP                          ; --            ; --          ; tb_TOP         ;
+; EDA_TEST_BENCH_NAME                   ; tb_TOP                          ; --            ; --          ; eda_simulation ;
+; EDA_TIME_SCALE                        ; 1 ps                            ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP                ; 85                              ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP                ; 0                               ; --            ; --          ; --             ;
+; POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR ; 3.3V                            ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION         ; No Heat Sink With Still Air     ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY              ; output_files                    ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                      ; TOP                             ; Digital_Clock ; --          ; --             ;
++---------------------------------------+---------------------------------+---------------+-------------+----------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:21     ; 1.0                     ; 4715 MB             ; 00:00:48                           ;
+; Total                  ; 00:00:21     ; --                      ; --                  ; 00:00:48                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; DESKTOP-JC6NIF0  ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Digital_Clock -c Digital_Clock --analysis_and_elaboration
+
+
+
