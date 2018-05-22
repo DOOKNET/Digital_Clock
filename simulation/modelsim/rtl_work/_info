@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dE:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/simulation/modelsim
 vdisplay_ctrl
-Z1 !s110 1526521883
+Z1 !s110 1526980535
 !i10b 1
 !s100 @WE[X7bO7WOWJ0C4LS73i0
 I[5haK08<8H^NEO34me9I<2
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1526521883.000000
+Z4 !s108 1526980535.000000
 !s107 E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code|E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v|
 !i113 1
@@ -31,7 +31,7 @@ Z5 o-vlog01compat -work work
 Z6 !s92 -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code
 Z7 tCvgOpt 0
 vtb_TOP
-R1
+Z8 !s110 1526980536
 !i10b 1
 !s100 QMM78eHzTlg0EboQY90Gf0
 IC7O2Z3B;fB;Fg52CamdY60
@@ -45,7 +45,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z9 !s108 1526980536.000000
 !s107 E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench|E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v|
 !i113 1
@@ -54,7 +54,7 @@ R5
 R7
 ntb_@t@o@p
 vtime_control
-R1
+R8
 !i10b 1
 !s100 [>RRQfBIl0@e`Jl7oUj`g2
 IZD3eBgYSTnlaUTGMa8T@X1
@@ -68,7 +68,7 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code|E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v|
 !i113 1

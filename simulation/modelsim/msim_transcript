@@ -12,49 +12,49 @@
 # 
 # vlog -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code {E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:23 on May 17,2018
+# Start time: 17:15:35 on May 22,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code" E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/TOP.v 
 # -- Compiling module TOP
 # 
 # Top level modules:
 # 	TOP
-# End time: 09:51:23 on May 17,2018, Elapsed time: 0:00:00
+# End time: 17:15:35 on May 22,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code {E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:23 on May 17,2018
+# Start time: 17:15:35 on May 22,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code" E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/display_ctrl.v 
 # -- Compiling module display_ctrl
 # 
 # Top level modules:
 # 	display_ctrl
-# End time: 09:51:23 on May 17,2018, Elapsed time: 0:00:00
+# End time: 17:15:35 on May 22,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code {E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:23 on May 17,2018
+# Start time: 17:15:36 on May 22,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code" E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/Code/time_control.v 
 # -- Compiling module time_control
 # 
 # Top level modules:
 # 	time_control
-# End time: 09:51:23 on May 17,2018, Elapsed time: 0:00:00
+# End time: 17:15:36 on May 22,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench {E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:23 on May 17,2018
+# Start time: 17:15:36 on May 22,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench" E:/Workspace/Quartus_17.1/2018_5_9_Digital_Clock/TestBench/tb_TOP.v 
 # -- Compiling module tb_TOP
 # 
 # Top level modules:
 # 	tb_TOP
-# End time: 09:51:23 on May 17,2018, Elapsed time: 0:00:00
+# End time: 17:15:36 on May 22,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxii_ver -L rtl_work -L work -voptargs="+acc"  tb_TOP
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxii_ver -L rtl_work -L work -voptargs=""+acc"" tb_TOP 
-# Start time: 09:51:24 on May 17,2018
+# Start time: 17:15:36 on May 22,2018
 # Loading work.tb_TOP
 # Loading work.TOP
 # Loading work.time_control
@@ -82,5 +82,5 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# End time: 09:51:40 on May 17,2018, Elapsed time: 0:00:16
+# End time: 17:19:26 on May 22,2018, Elapsed time: 0:03:50
 # Errors: 0, Warnings: 8
